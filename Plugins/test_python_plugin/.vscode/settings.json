@@ -1,0 +1,4 @@
+{
+	"python.analysis.extraPaths": ["..\\..\\..\\Intermediate\\PythonStub"],
+	"python.autoComplete.extraPaths": ["..\\..\\..\\Intermediate\\PythonStub"]
+}
