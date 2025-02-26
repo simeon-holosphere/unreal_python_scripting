@@ -155,13 +155,13 @@ class ImageBatch():
                 new_image.paste(images[p], (new_x, new_y))
         return new_image
     
-    def save_image(self, image: Image, name: str):
+    def save_image(self, image: Image, save_dir: str):
         """
         Saves image to drive.
         """
-        save_dir = os.path.join(os.getcwd(), "output", name)
+        # save_dir = os.path.join(os.getcwd(), "output", name)
         image.save(save_dir)
-        print(f"Image {name} saved!")
+        print(f"Image {save_dir} saved!")
 
     def __err_TypeError_message(self, var: Any, fn: Callable, expected_types: List) -> str:
         """
