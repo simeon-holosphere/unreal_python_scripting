@@ -53,27 +53,28 @@ def set_static_switch_params_rand(instance, static_switch_param_names):
     for static_switch_param_name in static_switch_param_names:
         unreal.MaterialEditingLibrary.set_material_instance_static_switch_parameter_value(instance, static_switch_param_name, random.getrandbits(1))
 
-selected_materials = unreal.EditorUtilityLibrary.get_selected_assets_of_class(asset_class=unreal.Material)
-if len(selected_materials) < 1:
-    unreal.EditorDialog.show_message("Asset Creation:", "Select a Material to create an instance of.", unreal.AppMsgType.OK)
+def create_randomized_material_instance_selected():
+    selected_materials = unreal.EditorUtilityLibrary.get_selected_assets_of_class(asset_class=unreal.Material)
+    if len(selected_materials) < 1:
+        unreal.EditorDialog.show_message("Asset Creation:", "Select a Material to create an instance of.", unreal.AppMsgType.OK)
+    
+    for selected_material in selected_materials:
+        print(f"selected material: {selected_material}")
 
-for selected_material in selected_materials:
-    print(f"selected material: {selected_material}")
+        vector_names = unreal.MaterialEditingLibrary.get_vector_parameter_names(selected_material)
+        float_names = unreal.MaterialEditingLibrary.get_scalar_parameter_names(selected_material)    
+        static_switch_names = unreal.MaterialEditingLibrary.get_static_switch_parameter_names(selected_material)    
 
-    vector_names = unreal.MaterialEditingLibrary.get_vector_parameter_names(selected_material)
-    float_names = unreal.MaterialEditingLibrary.get_scalar_parameter_names(selected_material)    
-    static_switch_names = unreal.MaterialEditingLibrary.get_static_switch_parameter_names(selected_material)    
+        created_asset = create_material_inst(selected_material)
 
-    created_asset = create_material_inst(selected_material)
+        set_vector_params_rand(created_asset, vector_names)
+        set_scalar_params_rand(created_asset, float_names)
+        set_static_switch_params_rand(created_asset, static_switch_names)
 
-    set_vector_params_rand(created_asset, vector_names)
-    set_scalar_params_rand(created_asset, float_names)
-    set_static_switch_params_rand(created_asset, static_switch_names)
-
-    if created_asset: 
-        created_asset_path = created_asset.get_full_name()
-        success_msg = "Created material instance at " + created_asset_path
-        unreal.MaterialEditingLibrary.update_material_instance(created_asset)
-        unreal.EditorDialog.show_message("Asset Creation:", success_msg, unreal.AppMsgType.OK)
-    else:
-        unreal.EditorDialog.show_message("Asset Creation:", "Failed to create", unreal.AppMsgType.OK)
+        if created_asset: 
+            created_asset_path = created_asset.get_full_name()
+            success_msg = "Created material instance at " + created_asset_path
+            unreal.MaterialEditingLibrary.update_material_instance(created_asset)
+            unreal.EditorDialog.show_message("Asset Creation:", success_msg, unreal.AppMsgType.OK)
+        else:
+            unreal.EditorDialog.show_message("Asset Creation:", "Failed to create", unreal.AppMsgType.OK)

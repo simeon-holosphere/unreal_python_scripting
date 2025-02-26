@@ -1,66 +1,66 @@
 [
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\Private\\test_python_plugin.cpp",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\Private\\test_python_plugin.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\Public\\test_python_plugin.h",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\Public\\test_python_plugin.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\test_python_plugin.Build.cs",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Plugins\\test_python_plugin\\Source\\test_python_plugin\\test_python_plugin.Build.cs",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\test_python_plugin.22.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Source\\EmptyPython\\EmptyPython.Build.cs",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Source\\EmptyPython\\EmptyPython.Build.cs",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Source\\EmptyPython\\EmptyPython.cpp",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Source\\EmptyPython\\EmptyPython.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Source\\EmptyPython\\EmptyPython.h",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Source\\EmptyPython\\EmptyPython.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Source\\EmptyPython\\EmptyPythonGameModeBase.cpp",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Source\\EmptyPython\\EmptyPythonGameModeBase.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Perforce\\playground\\EmptyPython\\Source\\EmptyPython\\EmptyPythonGameModeBase.h",
+		"file": "C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\Source\\EmptyPython\\EmptyPythonGameModeBase.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Perforce\\playground\\EmptyPython\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\SNorris\\GithubProjects\\unreal_python_scripting\\.vscode\\compileCommands_Default\\EmptyPython.270.rsp"
 		],
-		"directory": "D:\\Epic Games\\UE_5.2\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	}
 ]

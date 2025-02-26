@@ -1,9 +1,10 @@
-/.vs
+/.git
 /.vscode
 /Content
 /DerivedDataCache
 /Intermediate
 /Platforms
 /Saved
+/Plugins/test_python_plugin/.vscode
 /Plugins/test_python_plugin/Content
 /Plugins/test_python_plugin/Intermediate
