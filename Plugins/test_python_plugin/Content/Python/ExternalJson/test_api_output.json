@@ -1,0 +1,1666 @@
+{
+    "objectIdFieldName": "OBJECTID",
+    "uniqueIdField": {
+        "name": "OBJECTID",
+        "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+    },
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "University_Chapter",
+            "type": "esriFieldTypeString",
+            "alias": "University Chapter",
+            "sqlType": "sqlTypeOther",
+            "length": 255,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "City",
+            "type": "esriFieldTypeString",
+            "alias": "City",
+            "sqlType": "sqlTypeOther",
+            "length": 255,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "State",
+            "type": "esriFieldTypeString",
+            "alias": "State",
+            "sqlType": "sqlTypeOther",
+            "length": 255,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "ChapterID",
+            "type": "esriFieldTypeString",
+            "alias": "Chapter ID",
+            "sqlType": "sqlTypeOther",
+            "length": 255,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "MEVR_RD",
+            "type": "esriFieldTypeString",
+            "alias": "Regional Director",
+            "sqlType": "sqlTypeOther",
+            "length": 255,
+            "domain": null,
+            "defaultValue": "UNKNOWN"
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "OBJECTID": 2,
+                "University_Chapter": "Florida State University",
+                "City": "Tallahassee",
+                "State": "FL",
+                "ChapterID": "FL0110",
+                "MEVR_RD": "Jarrett Lafferty"
+            },
+            "geometry": {
+                "x": -84.30427263699994,
+                "y": 30.438110943000027
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 3,
+                "University_Chapter": "ABAC - Tift Collegiate",
+                "City": "Tifton",
+                "State": "GA",
+                "ChapterID": "GA0020",
+                "MEVR_RD": "Brice Crawford"
+            },
+            "geometry": {
+                "x": -83.51006446699995,
+                "y": 31.463418268000055
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 4,
+                "University_Chapter": "University of Georgia",
+                "City": "Athens",
+                "State": "GA",
+                "ChapterID": "GA0133",
+                "MEVR_RD": "Scott James"
+            },
+            "geometry": {
+                "x": -83.38324644299996,
+                "y": 33.955464353000025
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 5,
+                "University_Chapter": "Georgia Southern University",
+                "City": "Statesboro",
+                "State": "GA",
+                "ChapterID": "GA0144",
+                "MEVR_RD": "Brice Crawford"
+            },
+            "geometry": {
+                "x": -81.77923733899996,
+                "y": 32.445146145000024
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 6,
+                "University_Chapter": "Georgia Tech University",
+                "City": "Atlanta",
+                "State": "GA",
+                "ChapterID": "GA0147",
+                "MEVR_RD": "Scott James"
+            },
+            "geometry": {
+                "x": -84.40317324099999,
+                "y": 33.75950921100008
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 7,
+                "University_Chapter": "University of Alabama",
+                "City": "Tuscaloosa",
+                "State": "AL",
+                "ChapterID": "AL0107",
+                "MEVR_RD": "Neely Raper"
+            },
+            "geometry": {
+                "x": -87.53460919299994,
+                "y": 33.20653669600006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 9,
+                "University_Chapter": "Auburn University",
+                "City": "Auburn",
+                "State": "AL",
+                "ChapterID": "AL0114",
+                "MEVR_RD": "Neely Raper"
+            },
+            "geometry": {
+                "x": -85.48898201240547,
+                "y": 32.602128983247155
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 11,
+                "University_Chapter": "Iowa State University",
+                "City": "Ames",
+                "State": "IA",
+                "ChapterID": "IA0104",
+                "MEVR_RD": "Josh Finley"
+            },
+            "geometry": {
+                "x": -93.63158249099996,
+                "y": 42.02733633100007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 12,
+                "University_Chapter": "Southern Illinois University",
+                "City": "Carbondale",
+                "State": "IL",
+                "ChapterID": "IL0211",
+                "MEVR_RD": "Benny Magalski"
+            },
+            "geometry": {
+                "x": -89.22027363199999,
+                "y": 37.72641770600006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 14,
+                "University_Chapter": "University of Indiana",
+                "City": "Bloomington",
+                "State": "IN",
+                "ChapterID": "IN0131",
+                "MEVR_RD": "Wyatt Lucas"
+            },
+            "geometry": {
+                "x": -86.52904568899999,
+                "y": 39.16214581300005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 15,
+                "University_Chapter": "Purdue University",
+                "City": "West Lafayette",
+                "State": "IN",
+                "ChapterID": "IN0120",
+                "MEVR_RD": "Josh Hall"
+            },
+            "geometry": {
+                "x": -86.91240951899994,
+                "y": 40.44193688300004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 17,
+                "University_Chapter": "Kansas State University",
+                "City": "Manhattan",
+                "State": "KS",
+                "ChapterID": "KS0111",
+                "MEVR_RD": "John Ritchey"
+            },
+            "geometry": {
+                "x": -96.58681835799996,
+                "y": 39.190145864000044
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 19,
+                "University_Chapter": "California Polytechnic State University",
+                "City": "San Luis Obispo",
+                "State": "CA",
+                "ChapterID": "CA0355",
+                "MEVR_RD": "Derek Swindall"
+            },
+            "geometry": {
+                "x": -120.66319100299995,
+                "y": 35.274309145000075
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 20,
+                "University_Chapter": "University of Kentucky",
+                "City": "Lexington",
+                "State": "KY",
+                "ChapterID": "KY0073",
+                "MEVR_RD": "Bob Bezkor"
+            },
+            "geometry": {
+                "x": -84.49464621099997,
+                "y": 38.02963620300005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 23,
+                "University_Chapter": "University of Central Arkansas",
+                "City": "Conway",
+                "State": "AR",
+                "ChapterID": "AR0124",
+                "MEVR_RD": "Wesley Williams"
+            },
+            "geometry": {
+                "x": -92.45331865499998,
+                "y": 35.08733687600005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 24,
+                "University_Chapter": "U of A Razorback",
+                "City": "Fayetteville",
+                "State": "AR",
+                "ChapterID": "AR0110",
+                "MEVR_RD": "Tye Anderson"
+            },
+            "geometry": {
+                "x": -94.16091018899994,
+                "y": 36.07638216600003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 25,
+                "University_Chapter": "Louisiana State University",
+                "City": "Baton Rouge",
+                "State": "LA",
+                "ChapterID": "LA0085",
+                "MEVR_RD": "Zac Brown"
+            },
+            "geometry": {
+                "x": -91.18417245099994,
+                "y": 30.41228303300005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 26,
+                "University_Chapter": "Chico State University",
+                "City": "Chico",
+                "State": "CA",
+                "ChapterID": "CA0300",
+                "MEVR_RD": "Brian Henderson"
+            },
+            "geometry": {
+                "x": -121.83546324499997,
+                "y": 39.73998176200007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 28,
+                "University_Chapter": "Southeast Louisiana University",
+                "City": "Hammond",
+                "State": "LA",
+                "ChapterID": "LA0157",
+                "MEVR_RD": "Zac Brown"
+            },
+            "geometry": {
+                "x": -90.46561831699995,
+                "y": 30.504446397000038
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 29,
+                "University_Chapter": "Colorado State University",
+                "City": "Fort Collins ",
+                "State": "CO",
+                "ChapterID": "CO0108",
+                "MEVR_RD": "Erik Wettersten"
+            },
+            "geometry": {
+                "x": -105.07830037399998,
+                "y": 40.559236561000034
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 30,
+                "University_Chapter": "McNeese State University",
+                "City": "Lake Charles",
+                "State": "LA",
+                "ChapterID": "LA0159",
+                "MEVR_RD": "Austin Mouton"
+            },
+            "geometry": {
+                "x": -93.20853690699994,
+                "y": 30.214655572000026
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 31,
+                "University_Chapter": "Michigan State University",
+                "City": "Lansing",
+                "State": "MI",
+                "ChapterID": "MI0010",
+                "MEVR_RD": "Craig Curtis"
+            },
+            "geometry": {
+                "x": -84.55852351899995,
+                "y": 42.72136526700007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 33,
+                "University_Chapter": "Arkansas Tech University",
+                "City": "Russellville",
+                "State": "AR",
+                "ChapterID": "AR0130",
+                "MEVR_RD": "Tye Anderson"
+            },
+            "geometry": {
+                "x": -93.13681877299996,
+                "y": 35.27842696500005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 34,
+                "University_Chapter": "University of Michigan ",
+                "City": "Ann Arbor",
+                "State": "MI",
+                "ChapterID": "MI0251",
+                "MEVR_RD": "Craig Curtis"
+            },
+            "geometry": {
+                "x": -83.73926369699996,
+                "y": 42.27449083800008
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 35,
+                "University_Chapter": "University of Louisiana- Lafayette",
+                "City": "Lafayette",
+                "State": "LA",
+                "ChapterID": "LA0149",
+                "MEVR_RD": "Austin Mouton"
+            },
+            "geometry": {
+                "x": -92.02936460899997,
+                "y": 30.213900460000048
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 36,
+                "University_Chapter": "Minnesota State University",
+                "City": "Mankato",
+                "State": "MN",
+                "ChapterID": "MN0255",
+                "MEVR_RD": "Ben Vaughn"
+            },
+            "geometry": {
+                "x": -93.99380029999998,
+                "y": 44.16450060200003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 37,
+                "University_Chapter": "Bemidji State University",
+                "City": "Bemidji",
+                "State": "MN",
+                "ChapterID": "MN0221",
+                "MEVR_RD": "Dalton Rosin"
+            },
+            "geometry": {
+                "x": -94.87773730499998,
+                "y": 47.47652682800003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 38,
+                "University_Chapter": "Winona State University ",
+                "City": "Winona ",
+                "State": "MN",
+                "ChapterID": "MN0325",
+                "MEVR_RD": "Ben Vaughn"
+            },
+            "geometry": {
+                "x": -91.64715507199998,
+                "y": 44.04815503300006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 40,
+                "University_Chapter": "University of Mississippi",
+                "City": "Oxford",
+                "State": "MS",
+                "ChapterID": "MS0114",
+                "MEVR_RD": "Hunter Pridgen"
+            },
+            "geometry": {
+                "x": -89.52624619499994,
+                "y": 34.35983640300003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 41,
+                "University_Chapter": "Mississippi State University",
+                "City": "Starkville",
+                "State": "MS",
+                "ChapterID": "MS0123",
+                "MEVR_RD": "Hunter Pridgen"
+            },
+            "geometry": {
+                "x": -88.81999208999997,
+                "y": 33.46247355400004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 42,
+                "University_Chapter": "Delta State University",
+                "City": "Cleveland ",
+                "State": "MS",
+                "ChapterID": "MS0150",
+                "MEVR_RD": "Hunter Pridgen"
+            },
+            "geometry": {
+                "x": -90.72654663599997,
+                "y": 33.74202743600006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 43,
+                "University_Chapter": "Murray State University",
+                "City": "Murray",
+                "State": "KY",
+                "ChapterID": "KY0082",
+                "MEVR_RD": "Bob Bezkor"
+            },
+            "geometry": {
+                "x": -88.31565544999995,
+                "y": 36.60949173000006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 45,
+                "University_Chapter": "University of Minnesota- Duluth",
+                "City": "Duluth",
+                "State": "MN",
+                "ChapterID": "MN0293",
+                "MEVR_RD": "Shawna Stowers"
+            },
+            "geometry": {
+                "x": -92.11708193599998,
+                "y": 46.780372542000066
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 47,
+                "University_Chapter": "North Carolina State University",
+                "City": "Raleigh",
+                "State": "NC",
+                "ChapterID": "NC0162",
+                "MEVR_RD": "Andrew Williams"
+            },
+            "geometry": {
+                "x": -78.68167101842177,
+                "y": 35.731931010436526
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 48,
+                "University_Chapter": "Missouri State University",
+                "City": "Springfield",
+                "State": "MO",
+                "ChapterID": "MO0171",
+                "MEVR_RD": "Todd Carlton"
+            },
+            "geometry": {
+                "x": -93.28620976299999,
+                "y": 37.19510010600004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 49,
+                "University_Chapter": "University of Minnesota",
+                "City": "Minneapolis",
+                "State": "MN",
+                "ChapterID": "MN0323",
+                "MEVR_RD": "Alex Mereness"
+            },
+            "geometry": {
+                "x": -93.26820033299998,
+                "y": 44.96446371800005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 50,
+                "University_Chapter": "University of North Carolina at Chapel Hill",
+                "City": "Chapel Hill",
+                "State": "NC",
+                "ChapterID": "NC0166",
+                "MEVR_RD": "Andrew Williams"
+            },
+            "geometry": {
+                "x": -79.04869108001141,
+                "y": 35.908783755451026
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 52,
+                "University_Chapter": "University of North Carolina at Wilmington ",
+                "City": "Wilmington",
+                "State": "NC",
+                "ChapterID": "NC0171",
+                "MEVR_RD": "Dave Neal"
+            },
+            "geometry": {
+                "x": -77.91211895599997,
+                "y": 34.22323661900003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 53,
+                "University_Chapter": "Appalachian State University",
+                "City": "Boone",
+                "State": "NC",
+                "ChapterID": "NC0125",
+                "MEVR_RD": "Jon Sturgill"
+            },
+            "geometry": {
+                "x": -81.66865540099997,
+                "y": 36.21136405800007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 54,
+                "University_Chapter": "University of Missouri",
+                "City": "Columbia ",
+                "State": "MO",
+                "ChapterID": "MO0160",
+                "MEVR_RD": "Trevor Hickman"
+            },
+            "geometry": {
+                "x": -92.33378172699997,
+                "y": 38.94835501000006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 55,
+                "University_Chapter": "University of Nevada- Reno",
+                "City": "Reno",
+                "State": "NV",
+                "ChapterID": "NV0046",
+                "MEVR_RD": "Billie Ray Fann"
+            },
+            "geometry": {
+                "x": -119.82180863499997,
+                "y": 39.52710928600004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 58,
+                "University_Chapter": "State University of New York College of Environmental Science and Forestry",
+                "City": "Syracuse ",
+                "State": "NY",
+                "ChapterID": "NY0225",
+                "MEVR_RD": "Trevor Bentley"
+            },
+            "geometry": {
+                "x": -76.14442708399997,
+                "y": 43.04690049900006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 59,
+                "University_Chapter": "University of Southern Mississippi",
+                "City": "Hattiesburg",
+                "State": "MS",
+                "ChapterID": "MS0131",
+                "MEVR_RD": "Tommy Ware"
+            },
+            "geometry": {
+                "x": -89.30865470499998,
+                "y": 31.31597266600005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 60,
+                "University_Chapter": "Oklahoma State University",
+                "City": "Stillwater",
+                "State": "OK",
+                "ChapterID": "OK0119",
+                "MEVR_RD": "Nathan Johnson"
+            },
+            "geometry": {
+                "x": -97.06853733699995,
+                "y": 36.121536725000055
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 61,
+                "University_Chapter": "Lake Superior State University",
+                "City": "Sault Ste. Marie ",
+                "State": "MI",
+                "ChapterID": "MI0229",
+                "MEVR_RD": "Kevin Stoltz"
+            },
+            "geometry": {
+                "x": -84.36423832799994,
+                "y": 46.493349469000066
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 63,
+                "University_Chapter": "Citadel College",
+                "City": "Charleston",
+                "State": "SC",
+                "ChapterID": "SC0085",
+                "MEVR_RD": "James Meadows"
+            },
+            "geometry": {
+                "x": -79.96166444975077,
+                "y": 32.796290336194616
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 64,
+                "University_Chapter": "Wofford College",
+                "City": "Spartanburg",
+                "State": "SC",
+                "ChapterID": "SC0089",
+                "MEVR_RD": "Bobby Phibbs"
+            },
+            "geometry": {
+                "x": -81.92760030299996,
+                "y": 34.94677348600004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 65,
+                "University_Chapter": "Anderson University",
+                "City": "Anderson ",
+                "State": "SC",
+                "ChapterID": "SC0101",
+                "MEVR_RD": "Bobby Phibbs"
+            },
+            "geometry": {
+                "x": -82.64894625899996,
+                "y": 34.514509031000046
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 66,
+                "University_Chapter": "East Carolina University",
+                "City": "Greenville",
+                "State": "NC",
+                "ChapterID": "NC0168",
+                "MEVR_RD": "Dave Neal"
+            },
+            "geometry": {
+                "x": -77.37236462899995,
+                "y": 35.60160959500007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 67,
+                "University_Chapter": "Clemson University",
+                "City": "Clemson",
+                "State": "SC",
+                "ChapterID": "SC0082",
+                "MEVR_RD": "Bobby Phibbs"
+            },
+            "geometry": {
+                "x": -82.81477335199997,
+                "y": 34.684927723000044
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 70,
+                "University_Chapter": "University of Tennessee-Knoxville",
+                "City": "Knoxville",
+                "State": "TN",
+                "ChapterID": "TN0087",
+                "MEVR_RD": "Charlie Lowery"
+            },
+            "geometry": {
+                "x": -83.94216449099997,
+                "y": 35.97288185900004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 73,
+                "University_Chapter": "University of South Carolina",
+                "City": "Columbia ",
+                "State": "SC",
+                "ChapterID": "SC0079",
+                "MEVR_RD": "James Meadows"
+            },
+            "geometry": {
+                "x": -81.01075533299996,
+                "y": 34.017109246000075
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 74,
+                "University_Chapter": "Furman  University",
+                "City": "Greenville",
+                "State": "SC",
+                "ChapterID": "SC0083",
+                "MEVR_RD": "Bobby Phibbs"
+            },
+            "geometry": {
+                "x": -82.38542776299994,
+                "y": 34.84430946400005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 75,
+                "University_Chapter": "University of Oklahoma",
+                "City": "Norman",
+                "State": "OK",
+                "ChapterID": "OK0116",
+                "MEVR_RD": "Nathan Johnson"
+            },
+            "geometry": {
+                "x": -97.44347093141205,
+                "y": 35.188235574216606
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 76,
+                "University_Chapter": "Texas A&M University",
+                "City": "College Station",
+                "State": "TX",
+                "ChapterID": "TX0217",
+                "MEVR_RD": "Rob Wilson"
+            },
+            "geometry": {
+                "x": -96.34616814755597,
+                "y": 30.60579567005256
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 77,
+                "University_Chapter": "Texas A&M University-Kingsville",
+                "City": "Kingsville",
+                "State": "TX",
+                "ChapterID": "TX0176",
+                "MEVR_RD": "Clint Pace"
+            },
+            "geometry": {
+                "x": -97.86551015399999,
+                "y": 27.51502722500004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 78,
+                "University_Chapter": "University of Tennessee at Martin",
+                "City": "Martin",
+                "State": "TN",
+                "ChapterID": "TN0117",
+                "MEVR_RD": "Gabe Baker"
+            },
+            "geometry": {
+                "x": -88.86561525654986,
+                "y": 36.34096793991443
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 79,
+                "University_Chapter": "University of Nebraska- Lincoln",
+                "City": "Lincoln",
+                "State": "NE",
+                "ChapterID": "NE0101",
+                "MEVR_RD": "Steve Wilson"
+            },
+            "geometry": {
+                "x": -96.71062355193745,
+                "y": 40.81715181713591
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 80,
+                "University_Chapter": "Texas Tech University",
+                "City": "Lubbock",
+                "State": "TX",
+                "ChapterID": "TX0164",
+                "MEVR_RD": "Randall Foster"
+            },
+            "geometry": {
+                "x": -101.87288813892019,
+                "y": 33.591060461613644
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 81,
+                "University_Chapter": "James Madison University",
+                "City": "Harrisonburg",
+                "State": "VA",
+                "ChapterID": "VA0100",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -78.87275554499996,
+                "y": 38.443282004000025
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 82,
+                "University_Chapter": "University of Wisconsin-Madison",
+                "City": "Madison",
+                "State": "WI",
+                "ChapterID": "WI0303",
+                "MEVR_RD": "Barry Allen"
+            },
+            "geometry": {
+                "x": -89.39475512899998,
+                "y": 43.07460977100004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 85,
+                "University_Chapter": "Tennessee Tech University",
+                "City": "Cookeville",
+                "State": "TN",
+                "ChapterID": "TN0111",
+                "MEVR_RD": "Charlie Lowery"
+            },
+            "geometry": {
+                "x": -85.50615041484733,
+                "y": 36.178118883774594
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 87,
+                "University_Chapter": "Stephen F. Austin State University",
+                "City": "Nacogdoches",
+                "State": "TX",
+                "ChapterID": "TX0255",
+                "MEVR_RD": "Kyle Gokey"
+            },
+            "geometry": {
+                "x": -94.64438432302,
+                "y": 31.625721030118193
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 88,
+                "University_Chapter": "Virginia Tech",
+                "City": "Blacksburg",
+                "State": "VA",
+                "ChapterID": "VA0089",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -80.41769121899995,
+                "y": 37.22987332900004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 91,
+                "University_Chapter": "University of Wisconsin-Stevens Point",
+                "City": "Stevens Point",
+                "State": "WI",
+                "ChapterID": "WI0340",
+                "MEVR_RD": "Michael Brumley"
+            },
+            "geometry": {
+                "x": -89.56031851099999,
+                "y": 44.52303651600005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 93,
+                "University_Chapter": "West Virginia University",
+                "City": "Morgantown",
+                "State": "WV",
+                "ChapterID": "WV0028",
+                "MEVR_RD": "Aaron Dynes"
+            },
+            "geometry": {
+                "x": -79.95067299399994,
+                "y": 39.633700985000075
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 494,
+                "University_Chapter": "Dahlonega Collegiate",
+                "City": "Dahlonega",
+                "State": "GA",
+                "ChapterID": "GA0173",
+                "MEVR_RD": "Scott James"
+            },
+            "geometry": {
+                "x": -83.98407082499995,
+                "y": 34.527711047000025
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 895,
+                "University_Chapter": "College of Saint Benedict & Saint John's University",
+                "City": "St. Joseph",
+                "State": "MN",
+                "ChapterID": "MN0295",
+                "MEVR_RD": "Kyle Momsen"
+            },
+            "geometry": {
+                "x": -94.32021552599997,
+                "y": 45.558805661000065
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 897,
+                "University_Chapter": "Sewnee: The University of the South",
+                "City": "Sewanee",
+                "State": "TN",
+                "ChapterID": "TN0096",
+                "MEVR_RD": "Charlie Lowery"
+            },
+            "geometry": {
+                "x": -85.91893143599998,
+                "y": 35.20419745600003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1295,
+                "University_Chapter": "Gustavus Adolphus College",
+                "City": "St. Peter",
+                "State": "MN",
+                "ChapterID": "MN0335",
+                "MEVR_RD": "Ben Vaughn"
+            },
+            "geometry": {
+                "x": -93.97148995499998,
+                "y": 44.323282730000074
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1299,
+                "University_Chapter": "Washington and Lee University",
+                "City": "Lexington",
+                "State": "VA",
+                "ChapterID": "VA0083",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -79.46793027124994,
+                "y": 37.77226888541133
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1300,
+                "University_Chapter": "Randolph-Macon College",
+                "City": "Ashland",
+                "State": "VA",
+                "ChapterID": "VA0101",
+                "MEVR_RD": "Shawn Kooyman"
+            },
+            "geometry": {
+                "x": -77.47761367699997,
+                "y": 37.764207472000066
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1696,
+                "University_Chapter": "State University of New York at Cobleskill",
+                "City": "Cobleskill",
+                "State": "NY",
+                "ChapterID": "NY0222",
+                "MEVR_RD": "Eric Mathiesen"
+            },
+            "geometry": {
+                "x": -74.50426064799996,
+                "y": 42.67182015800006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1697,
+                "University_Chapter": "Delaware Valley College",
+                "City": "Doylestown",
+                "State": "PA",
+                "ChapterID": "PA0200",
+                "MEVR_RD": "Jeremy Mercer"
+            },
+            "geometry": {
+                "x": -75.16222442899993,
+                "y": 40.29827766200003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1699,
+                "University_Chapter": "Hampden-Sydney College",
+                "City": "Farmville",
+                "State": "VA",
+                "ChapterID": "VA0090",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -78.45918220299995,
+                "y": 37.24352085400005
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1700,
+                "University_Chapter": "University of Wisconsin-Stout",
+                "City": "Stout",
+                "State": "WI",
+                "ChapterID": "WI0342",
+                "MEVR_RD": "Shawna Stowers"
+            },
+            "geometry": {
+                "x": -91.92780072499994,
+                "y": 44.87368244800007
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1701,
+                "University_Chapter": "Western Kentucky University",
+                "City": "Bowling Green",
+                "State": "KY",
+                "ChapterID": "KY0074",
+                "MEVR_RD": "Bob Bezkor"
+            },
+            "geometry": {
+                "x": -86.45940557303592,
+                "y": 36.98479195793095
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1708,
+                "University_Chapter": "University of Tennessee-Chattanooga",
+                "City": "Chattanooga",
+                "State": "TN",
+                "ChapterID": "TN132",
+                "MEVR_RD": "Charlie Lowery"
+            },
+            "geometry": {
+                "x": -85.29746094177244,
+                "y": 35.045264131127055
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1711,
+                "University_Chapter": "University of Wisconsin-Whitewater",
+                "City": "Whitewater",
+                "State": "WI",
+                "ChapterID": "WI0331",
+                "MEVR_RD": "Tom Munich"
+            },
+            "geometry": {
+                "x": -88.74357813491814,
+                "y": 42.837195780105226
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1712,
+                "University_Chapter": "Georgia College & State University",
+                "City": "Milledgeville",
+                "State": "GA",
+                "ChapterID": "GA0151",
+                "MEVR_RD": "Brice Crawford"
+            },
+            "geometry": {
+                "x": -83.22850586242672,
+                "y": 33.08099797803749
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1715,
+                "University_Chapter": "University of Virginia",
+                "City": "Charlottesville",
+                "State": "VA",
+                "ChapterID": "VA0088",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -78.51573914825465,
+                "y": 38.03388610683554
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1716,
+                "University_Chapter": "Campbell University",
+                "City": "Buies Creek",
+                "State": "NC",
+                "ChapterID": "NC0144",
+                "MEVR_RD": "Dave Neal"
+            },
+            "geometry": {
+                "x": -78.73945364418071,
+                "y": 35.40835857783544
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1720,
+                "University_Chapter": "Northern Michigan University",
+                "City": "Marquette",
+                "State": "MI",
+                "ChapterID": "MI0256",
+                "MEVR_RD": "Kevin Stoltz"
+            },
+            "geometry": {
+                "x": -87.40663651912598,
+                "y": 46.55871874615432
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1727,
+                "University_Chapter": "University of Florida/Gainesville",
+                "City": "Gainesville",
+                "State": "FL",
+                "ChapterID": "FL-0126",
+                "MEVR_RD": "Jarrett Lafferty"
+            },
+            "geometry": {
+                "x": -82.3552443873829,
+                "y": 29.642362842802008
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1729,
+                "University_Chapter": "Arkansas State University",
+                "City": "Jonesboro",
+                "State": "AR",
+                "ChapterID": "AR-0113",
+                "MEVR_RD": "Tye Anderson"
+            },
+            "geometry": {
+                "x": -90.67573616535374,
+                "y": 35.84167584508265
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1730,
+                "University_Chapter": "Vandal Chapter",
+                "City": "Moscow",
+                "State": "ID",
+                "ChapterID": "ID-0089",
+                "MEVR_RD": "Mond Warren"
+            },
+            "geometry": {
+                "x": -117.01428457153312,
+                "y": 46.728181890542324
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1733,
+                "University_Chapter": "Ferris State University",
+                "City": "Big Rapids",
+                "State": "MI",
+                "ChapterID": "MI-0260",
+                "MEVR_RD": "Craig Curtis"
+            },
+            "geometry": {
+                "x": -85.48248003173825,
+                "y": 43.68654993517257
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1735,
+                "University_Chapter": "St. Lawrence University",
+                "City": "Canton",
+                "State": "NY",
+                "ChapterID": "NY-0217",
+                "MEVR_RD": "Eric Mathiesen"
+            },
+            "geometry": {
+                "x": -75.15956667724608,
+                "y": 44.59354516097969
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1736,
+                "University_Chapter": "College of Charleston",
+                "City": "Charleston",
+                "State": "SC",
+                "ChapterID": "SC-0007",
+                "MEVR_RD": "James Meadows"
+            },
+            "geometry": {
+                "x": -79.93764743149406,
+                "y": 32.78483452638625
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1737,
+                "University_Chapter": "VMI",
+                "City": "Lexington",
+                "State": "VA",
+                "ChapterID": "VA-0102",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -79.42562241181652,
+                "y": 37.80093280892925
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1739,
+                "University_Chapter": "Nebraska Wesleyan University",
+                "City": "Lincoln",
+                "State": "NE",
+                "ChapterID": "NE-0118",
+                "MEVR_RD": "Steve Wilson"
+            },
+            "geometry": {
+                "x": -96.64973221563255,
+                "y": 40.83880088214307
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1740,
+                "University_Chapter": "Tuskegee University",
+                "City": "Tuskegee",
+                "State": "AL",
+                "ChapterID": "AL-0143",
+                "MEVR_RD": "Neely Raper"
+            },
+            "geometry": {
+                "x": -85.71085162963865,
+                "y": 32.43220425699198
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1742,
+                "University_Chapter": "High Point University",
+                "City": "High Point",
+                "State": "NC",
+                "ChapterID": "NC-0223",
+                "MEVR_RD": "Jon Sturgill"
+            },
+            "geometry": {
+                "x": -79.99759574629509,
+                "y": 35.971155272038146
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1744,
+                "University_Chapter": "Coastal Carolina University",
+                "City": "Conway",
+                "State": "SC",
+                "ChapterID": "SC-0096",
+                "MEVR_RD": "James Meadows"
+            },
+            "geometry": {
+                "x": -79.01178140606248,
+                "y": 33.79535066749266
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1745,
+                "University_Chapter": "University of Kansas",
+                "City": "Larwence",
+                "State": "KS",
+                "ChapterID": "KS-0109",
+                "MEVR_RD": "Chris Young"
+            },
+            "geometry": {
+                "x": -95.2555606140116,
+                "y": 38.95423109733754
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1746,
+                "University_Chapter": "Longwood University",
+                "City": "Farmville",
+                "State": "VA",
+                "ChapterID": "VA-0091",
+                "MEVR_RD": "Dustin Howell"
+            },
+            "geometry": {
+                "x": -78.39590995565113,
+                "y": 37.3009899320708
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1748,
+                "University_Chapter": "Southern Arkansas University",
+                "City": "Magnolia",
+                "State": "Arkansas",
+                "ChapterID": "AR-0153",
+                "MEVR_RD": "Wesley Williams"
+            },
+            "geometry": {
+                "x": -93.23666188850295,
+                "y": 33.29235427762416
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1749,
+                "University_Chapter": "Demon Deacon DU",
+                "City": "Winston-Salem",
+                "State": "North Carolina",
+                "ChapterID": "NC-0164",
+                "MEVR_RD": "Jon Sturgill"
+            },
+            "geometry": {
+                "x": -80.27647552082252,
+                "y": 36.13402378394852
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1752,
+                "University_Chapter": "Florida Gulf Coast University",
+                "City": "Ft. Myers",
+                "State": "FL",
+                "ChapterID": "FL0164",
+                "MEVR_RD": "Brett Bainter"
+            },
+            "geometry": {
+                "x": -81.77679512634502,
+                "y": 26.463459970647488
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1753,
+                "University_Chapter": "U of A Monticello",
+                "City": "Monticello",
+                "State": "AR",
+                "ChapterID": "AR-0152",
+                "MEVR_RD": "Wesley Williams"
+            },
+            "geometry": {
+                "x": -91.81491203964039,
+                "y": 33.59168617917234
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1754,
+                "University_Chapter": "UT -Austin",
+                "City": "Austin",
+                "State": "TX",
+                "ChapterID": "TX-0203",
+                "MEVR_RD": "Rob Wilson"
+            },
+            "geometry": {
+                "x": -97.73775215410517,
+                "y": 30.286126464004035
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1755,
+                "University_Chapter": "Bear Chapter- Baylor University",
+                "City": "Waco",
+                "State": "TX",
+                "ChapterID": "TX-0223",
+                "MEVR_RD": "Rob Wilson"
+            },
+            "geometry": {
+                "x": -97.11463390962905,
+                "y": 31.54999606284974
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1756,
+                "University_Chapter": "Mississippi College School of Law",
+                "City": "Clinton",
+                "State": "MS",
+                "ChapterID": "MS-0161",
+                "MEVR_RD": "Hunter Pridgen"
+            },
+            "geometry": {
+                "x": -90.33209380207056,
+                "y": 32.33628172671593
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1757,
+                "University_Chapter": "Fresno State",
+                "City": "Fresno",
+                "State": "CA",
+                "ChapterID": "CA-0362",
+                "MEVR_RD": "Garrett Williams"
+            },
+            "geometry": {
+                "x": -119.73959481924653,
+                "y": 36.82354541564933
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1760,
+                "University_Chapter": "Old Dominion",
+                "City": "Norfolk",
+                "State": "VA",
+                "ChapterID": "VA-0113",
+                "MEVR_RD": "Shawn Kooyman"
+            },
+            "geometry": {
+                "x": -76.30675535391906,
+                "y": 36.885189875666015
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1761,
+                "University_Chapter": "University of Wisconsin-Platteville",
+                "City": "Platteville",
+                "State": "WI",
+                "ChapterID": "WI-0351",
+                "MEVR_RD": "Barry Allen"
+            },
+            "geometry": {
+                "x": -90.48834074808713,
+                "y": 42.734022177084114
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1763,
+                "University_Chapter": "Grand Valley State University",
+                "City": "Allendale",
+                "State": "MI",
+                "ChapterID": null,
+                "MEVR_RD": "Craig Curtis"
+            },
+            "geometry": {
+                "x": -85.88855625236506,
+                "y": 42.96280300460767
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1764,
+                "University_Chapter": "UW- Milwaukee",
+                "City": "Milwaukee",
+                "State": "WI",
+                "ChapterID": "WI-0349",
+                "MEVR_RD": "Tom Munich"
+            },
+            "geometry": {
+                "x": -87.88416359558161,
+                "y": 43.07604763264107
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1765,
+                "University_Chapter": "University of South Alabama",
+                "City": "Mobile",
+                "State": "AL",
+                "ChapterID": "AL-0145",
+                "MEVR_RD": "Tommy Ware"
+            },
+            "geometry": {
+                "x": -88.18036264701958,
+                "y": 30.693865786334488
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1767,
+                "University_Chapter": "Penn State University",
+                "City": "State College",
+                "State": "PA",
+                "ChapterID": "PA-0194",
+                "MEVR_RD": "Jeremy Mercer"
+            },
+            "geometry": {
+                "x": -77.86006992804272,
+                "y": 40.79891760452571
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1768,
+                "University_Chapter": "UNC- Charlotte",
+                "City": "Charlotte",
+                "State": "NC",
+                "ChapterID": "NC-0233",
+                "MEVR_RD": "Jon Sturgill"
+            },
+            "geometry": {
+                "x": -80.7334045173204,
+                "y": 35.3064354038334
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1769,
+                "University_Chapter": "Prairie View A&M University",
+                "City": "Prairie View",
+                "State": "TX",
+                "ChapterID": "TX-0324",
+                "MEVR_RD": "Jason McKey"
+            },
+            "geometry": {
+                "x": -95.98783950851306,
+                "y": 30.09454554995632
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1771,
+                "University_Chapter": "Griz Ducks Unlimited",
+                "City": "Missoula",
+                "State": "MT",
+                "ChapterID": "MT-0066",
+                "MEVR_RD": "Parker Grandy"
+            },
+            "geometry": {
+                "x": -113.98447488591285,
+                "y": 46.86299300606301
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 1772,
+                "University_Chapter": "Montana State University",
+                "City": "Bozeman",
+                "State": "MT",
+                "ChapterID": "MT-0071",
+                "MEVR_RD": "Parker Grandy"
+            },
+            "geometry": {
+                "x": -111.06923555180768,
+                "y": 45.665912392965566
+            }
+        }
+    ]
+}
